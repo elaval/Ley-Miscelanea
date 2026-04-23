@@ -7,7 +7,7 @@ export default function ArticulosLayout({ children }: { children: React.ReactNod
   const transitory = getTransitoryArticles();
 
   return (
-    <div className="flex flex-col md:flex-row md:h-screen md:overflow-hidden bg-white">
+    <div className="flex flex-col h-screen overflow-hidden md:flex-row bg-white">
       {/* Mobile: fixed top bar + slide-in drawer */}
       <MobileHeader permanent={permanent} transitory={transitory} />
 

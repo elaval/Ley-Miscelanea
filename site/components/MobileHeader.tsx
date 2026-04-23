@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import type { Article } from '@/lib/types';
 import ArticleList from './ArticleList';
 
@@ -11,6 +12,10 @@ interface Props {
 
 export default function MobileHeader({ permanent, transitory }: Props) {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  // On the article list index page, the list is shown inline — no header needed
+  if (pathname === '/articulos') return null;
 
   return (
     <>
