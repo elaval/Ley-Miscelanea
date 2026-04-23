@@ -31,6 +31,16 @@ function normalizeAxis(tag: string): string {
     .replace('fiscal', 'fiscal');
 }
 
+/** Devuelve la mini-descripción generada, o el primer fragmento de plain_explanation como fallback. */
+function miniDesc(article: Article): string {
+  if (article.mini_description) return article.mini_description;
+  const exp = article.llm_analysis?.plain_explanation ?? '';
+  if (!exp) return '';
+  // Fallback: primera oración truncada a 90 chars
+  const first = exp.split(/(?<=[.!?])\s+/)[0] ?? exp;
+  return first.length > 90 ? first.slice(0, 87).trimEnd() + '…' : first;
+}
+
 function ArticleItem({ article, active, onNavigate }: { article: Article; active: boolean; onNavigate?: () => void }) {
   const axis = article.axis_tags[0];
   const colorClass = axis ? (AXIS_COLORS[axis] ?? 'bg-gray-100 text-gray-600') : 'bg-gray-100 text-gray-600';
@@ -59,9 +69,9 @@ function ArticleItem({ article, active, onNavigate }: { article: Article; active
           </span>
         )}
       </div>
-      {article.theme_tags.length > 0 && (
-        <p className={`text-[11px] mt-0.5 truncate ${active ? 'text-slate-300' : 'text-slate-500'}`}>
-          {article.theme_tags.slice(0, 3).join(' · ')}
+      {miniDesc(article) && (
+        <p className={`text-[11px] mt-0.5 line-clamp-2 leading-snug ${active ? 'text-slate-300' : 'text-slate-500'}`}>
+          {miniDesc(article)}
         </p>
       )}
     </Link>

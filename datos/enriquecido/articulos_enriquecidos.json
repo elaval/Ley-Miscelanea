@@ -72,7 +72,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:34:23.478Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Amplía fondo de emergencia para incendios de Ñuble y Biobío hasta 2028"
     },
     {
       "article_id": "art-permanent-2",
@@ -119,7 +120,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:34:46.242Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Extiende excepción de rentas municipales a Ñuble y Biobío por hechos de enero 2026"
     },
     {
       "article_id": "art-permanent-3",
@@ -222,7 +224,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:35:24.607Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Establece impuesto único de 5% para arriendos de viviendas económicas desde la tercera"
     },
     {
       "article_id": "art-permanent-4",
@@ -279,7 +282,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:45:55.515Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Elimina restricciones de contratación en obras públicas y concesiones"
     },
     {
       "article_id": "art-permanent-5",
@@ -334,7 +338,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:46:20.720Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Reduce a seis meses el plazo para invalidar autorizaciones sectoriales de oficio"
     },
     {
       "article_id": "art-permanent-6",
@@ -391,7 +396,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:46:48.897Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Exenta relocalizaciones de acuicultura de evaluación ambiental y trámites inspectivos"
     },
     {
       "article_id": "art-permanent-7",
@@ -501,7 +507,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:47:26.859Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Flexibiliza requisitos de monitoreo y licita informes entre prestadores inscritos"
     },
     {
       "article_id": "art-permanent-8",
@@ -553,7 +560,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:47:54.438Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite usar obras publicadas para análisis masivo de datos sin autorización del autor"
     },
     {
       "article_id": "art-permanent-9",
@@ -652,7 +660,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:22:58.235Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Descuento tributario para empresas por contratación de trabajadores con sueldos bajos"
     },
     {
       "article_id": "art-permanent-10",
@@ -791,7 +800,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:48:28.265Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Reduce impuesto corporativo del 27% al 23% y elimina gravamen a ganancias bursátiles"
     },
     {
       "article_id": "art-permanent-11",
@@ -850,7 +860,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:49:06.355Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Elimina la restitución del 35% del crédito tributario para socios y accionistas"
     },
     {
       "article_id": "art-permanent-12",
@@ -985,7 +996,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:49:48.961Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Exime del impuesto territorial a adultos mayores de 65 años en su vivienda principal"
     },
     {
       "article_id": "art-permanent-13",
@@ -1099,7 +1111,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:08:14.667Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Simplifica la evaluación ambiental de proyectos y modificaciones aprobadas"
     },
     {
       "article_id": "art-permanent-14",
@@ -1150,7 +1163,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:50:57.980Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite recuperar gastos ejecutados cuando se anula la autorización ambiental del proyecto"
     },
     {
       "article_id": "art-permanent-15",
@@ -1246,7 +1260,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:51:30.261Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite restituir gastos directos de proyectos cuya Resolución Ambiental fue anulada"
     },
     {
       "article_id": "art-permanent-16",
@@ -1309,7 +1324,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:23:23.290Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite reclamar ante la Corte de Apelaciones el monto de restitución fijado por la comisión"
     },
     {
       "article_id": "art-permanent-17",
@@ -1360,7 +1376,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:51:52.531Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Establece plazos de pago de compensación según firmeza de resolución"
     },
     {
       "article_id": "art-permanent-18",
@@ -1415,7 +1432,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:52:23.730Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite reclamar restitución de gastos ante Corte de Apelaciones por RCA anulada"
     },
     {
       "article_id": "art-permanent-19",
@@ -1493,7 +1511,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:52:59.042Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Restringe medidas cautelares que paralizan proyectos ambientales aprobados"
     },
     {
       "article_id": "art-permanent-20",
@@ -1551,7 +1570,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:53:24.737Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Amplía plazos para implementar la Ley de Biodiversidad y Áreas Protegidas"
     },
     {
       "article_id": "art-permanent-21",
@@ -1668,7 +1688,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:54:00.848Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Facilita excavaciones arqueológicas y paleontológicas con asesoría profesional"
     },
     {
       "article_id": "art-permanent-22",
@@ -1746,7 +1767,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:54:31.063Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Amplía facultades del SII para acceder a datos de beneficiarios de programas sociales"
     },
     {
       "article_id": "art-permanent-23",
@@ -1802,7 +1824,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:54:54.894Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Autoriza a DIPRES solicitar información tributaria al SII para cumplir funciones"
     },
     {
       "article_id": "art-permanent-24",
@@ -1900,7 +1923,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:55:22.220Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Aumenta requisitos económicos para activar nuevos tramos de gratuidad en educación superior"
     },
     {
       "article_id": "art-permanent-25",
@@ -1955,7 +1979,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:55:44.842Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Congela por dos años la entrada de nuevas instituciones educativas a la gratuidad"
     },
     {
       "article_id": "art-permanent-26",
@@ -2021,7 +2046,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:56:15.658Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Financia actualización de lectoescritura y aritmética para trabajadores con educación básica o media"
     },
     {
       "article_id": "art-permanent-27",
@@ -2073,7 +2099,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:56:40.094Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Modifica financiamiento de certificación laboral y deroga tres artículos"
     },
     {
       "article_id": "art-permanent-28",
@@ -2120,7 +2147,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:57:03.020Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Aumenta cupos anuales de bono por retiro voluntario en universidades estatales"
     },
     {
       "article_id": "art-permanent-29",
@@ -2190,7 +2218,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:57:29.264Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Asigna cupos adicionales de bonificación a seleccionados del proceso 2026"
     },
     {
       "article_id": "art-permanent-30",
@@ -2237,7 +2266,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:57:55.874Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Sanciona a funcionarios públicos que utilizan indebidamente licencias médicas"
     },
     {
       "article_id": "art-permanent-31",
@@ -2324,7 +2354,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:58:27.905Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Endurece sanciones al contrabando y acelera remate de vehículos incautados"
     },
     {
       "article_id": "art-permanent-32",
@@ -2380,7 +2411,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:58:57.049Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Autoriza transporte de monedas metálicas chilenas por empresas de transporte comunes"
     },
     {
       "article_id": "art-permanent-33",
@@ -2527,7 +2559,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:09:07.894Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Congela tributos por 25 años para inversiones mayores a 50 millones dólares"
     },
     {
       "article_id": "art-transitory-1",
@@ -2602,7 +2635,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:00:22.263Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite donar patrimonio a familiares con descuento tributario del 50%"
     },
     {
       "article_id": "art-transitory-2",
@@ -2714,7 +2748,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:00:54.096Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Ofrece condonación de intereses y multas para deudas tributarias vencidas hasta 2025"
     },
     {
       "article_id": "art-transitory-3",
@@ -2992,7 +3027,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T11:24:09.163Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite regularizar bienes extranjeros con impuesto único del 10%"
     },
     {
       "article_id": "art-transitory-4",
@@ -3069,7 +3105,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:01:27.019Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Libera del IVA la primera venta de viviendas terminadas durante un año"
     },
     {
       "article_id": "art-transitory-5",
@@ -3139,7 +3176,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:01:57.231Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Reduce gradualmente devolución de crédito tributario desde 2027"
     },
     {
       "article_id": "art-transitory-6",
@@ -3211,7 +3249,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:02:24.657Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Reduce gradualmente el impuesto de primera categoría empresarial hasta 23% en 2029"
     },
     {
       "article_id": "art-transitory-7",
@@ -3277,7 +3316,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:02:53.725Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Reduce y recalcula pagos provisionales mensuales entre 2027 y 2030"
     },
     {
       "article_id": "art-transitory-8",
@@ -3321,7 +3361,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:03:17.567Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Establece fecha de inicio de exención tributaria para mayores de 65 años"
     },
     {
       "article_id": "art-transitory-9",
@@ -3362,7 +3403,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:03:37.830Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Establece fechas de entrada en vigencia de las normas de esta ley"
     },
     {
       "article_id": "art-transitory-10",
@@ -3425,7 +3467,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:04:10.779Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite regularizar deudas municipales sin intereses ni multas"
     },
     {
       "article_id": "art-transitory-11",
@@ -3494,7 +3537,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:04:45.676Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite regularizar utilidades acumuladas pagando impuesto único del 10%"
     },
     {
       "article_id": "art-transitory-12",
@@ -3564,7 +3608,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:05:19.999Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Permite cerrar retiros en exceso del FUT pagando impuesto único del 10%"
     },
     {
       "article_id": "art-transitory-13",
@@ -3615,7 +3660,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:05:41.969Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Otorga plazo de un año al Ministerio del Medio Ambiente para dictar nuevos reglamentos"
     },
     {
       "article_id": "art-transitory-14",
@@ -3658,7 +3704,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:06:03.773Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Limita reembolso de gastos a RCA anuladas después de entrada en vigencia"
     },
     {
       "article_id": "art-transitory-15",
@@ -3702,7 +3749,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:06:21.729Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Otorga tres meses al Ministerio de Hacienda para reglamentar el reembolso de gastos"
     },
     {
       "article_id": "art-transitory-16",
@@ -3760,7 +3808,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:06:45.918Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Autoriza hacer obligatorio el nuevo procedimiento de evaluación ambiental tras evaluación conjunta"
     },
     {
       "article_id": "art-transitory-17",
@@ -3801,7 +3850,8 @@
         ]
       },
       "llm_analysis_date": "2026-04-23T12:07:06.482Z",
-      "llm_model": "claude-opus-4-7"
+      "llm_model": "claude-opus-4-7",
+      "mini_description": "Define financiamiento de la ley con presupuestos institucionales y Tesoro Público"
     }
   ],
   "enrichment_stats": {

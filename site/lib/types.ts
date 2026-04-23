@@ -35,6 +35,7 @@ export interface Article {
   numeric_values: NumericValue[];
   cross_references: string[];
   message_description: string | null;
+  mini_description?: string;
   llm_analysis?: ArticleAnalysis;
   llm_analysis_date?: string;
   llm_model?: string;
