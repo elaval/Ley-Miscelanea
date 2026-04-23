@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import type { Article } from '@/lib/types';
 
 const AXIS_BADGE: Record<string, { label: string; className: string }> = {
@@ -72,7 +73,20 @@ export default function ArticleDetail({ article }: { article: Article }) {
   const isTransitory = article.article_type === 'transitory';
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8 space-y-5">
+    <div className="max-w-3xl mx-auto px-4 md:px-6 py-6 md:py-8 space-y-5">
+      {/* Mobile back button */}
+      <div className="md:hidden">
+        <Link
+          href="/articulos"
+          className="inline-flex items-center gap-1.5 text-sm text-slate-500 hover:text-slate-800 transition-colors py-1"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+          Todos los artículos
+        </Link>
+      </div>
+
       {/* Header */}
       <div>
         <div className="flex flex-wrap gap-2 mb-3">
@@ -93,7 +107,7 @@ export default function ArticleDetail({ article }: { article: Article }) {
             );
           })}
         </div>
-        <h1 className="text-2xl font-bold text-slate-900">{article.title}</h1>
+        <h1 className="text-xl md:text-2xl font-bold text-slate-900">{article.title}</h1>
         {article.theme_tags.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mt-2">
             {article.theme_tags.map(t => (

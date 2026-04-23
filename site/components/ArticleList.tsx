@@ -8,6 +8,7 @@ import type { Article } from '@/lib/types';
 interface Props {
   permanent: Article[];
   transitory: Article[];
+  onNavigate?: () => void;
 }
 
 const AXIS_COLORS: Record<string, string> = {
@@ -30,13 +31,14 @@ function normalizeAxis(tag: string): string {
     .replace('fiscal', 'fiscal');
 }
 
-function ArticleItem({ article, active }: { article: Article; active: boolean }) {
+function ArticleItem({ article, active, onNavigate }: { article: Article; active: boolean; onNavigate?: () => void }) {
   const axis = article.axis_tags[0];
   const colorClass = axis ? (AXIS_COLORS[axis] ?? 'bg-gray-100 text-gray-600') : 'bg-gray-100 text-gray-600';
 
   return (
     <Link
       href={`/articulos/${article.article_id}`}
+      onClick={onNavigate}
       className={`block px-3 py-2.5 rounded-lg text-sm transition-colors ${
         active
           ? 'bg-slate-800 text-white'
@@ -76,7 +78,7 @@ function axisShort(key: string): string {
   return map[key] ?? key;
 }
 
-export default function ArticleList({ permanent, transitory }: Props) {
+export default function ArticleList({ permanent, transitory, onNavigate }: Props) {
   const pathname = usePathname();
   const [query, setQuery] = useState('');
   const [section, setSection] = useState<'all' | 'permanent' | 'transitory'>('all');
@@ -139,6 +141,7 @@ export default function ArticleList({ permanent, transitory }: Props) {
                   key={a.article_id}
                   article={a}
                   active={pathname === `/articulos/${a.article_id}`}
+                  onNavigate={onNavigate}
                 />
               ))}
             </div>
@@ -155,6 +158,7 @@ export default function ArticleList({ permanent, transitory }: Props) {
                   key={a.article_id}
                   article={a}
                   active={pathname === `/articulos/${a.article_id}`}
+                  onNavigate={onNavigate}
                 />
               ))}
             </div>
