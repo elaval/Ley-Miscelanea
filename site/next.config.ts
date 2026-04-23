@@ -1,13 +1,8 @@
 import type { NextConfig } from "next";
-import path from "path";
 
 const nextConfig: NextConfig = {
-  // Necesario porque el repo tiene dos package-lock.json (scripts + site).
-  // Sin esto, Turbopack infiere el workspace root desde la raíz del repo
-  // y desordena los paths de output, causando 404 en Vercel.
-  turbopack: {
-    root: path.resolve(__dirname),
-  },
+  output: "export",    // genera archivos HTML/CSS/JS estáticos en out/
+  trailingSlash: true, // necesario para que las rutas funcionen en hosting estático
 };
 
 export default nextConfig;
