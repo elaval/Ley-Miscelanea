@@ -1,0 +1,49 @@
+# ─── CLAVES Y SECRETOS ────────────────────────────────────────────
+# NUNCA commitear — contienen ANTHROPIC_API_KEY y otras credenciales
+.env
+.env.local
+.env.*.local
+
+# ─── DEPENDENCIAS ─────────────────────────────────────────────────
+node_modules/
+site/node_modules/
+
+# ─── BUILDS Y CACHÉ ───────────────────────────────────────────────
+site/.next/
+site/data/          # generado en prebuild — Vercel lo crea en build time
+dist/
+out/
+build/
+*.tsbuildinfo
+
+# ─── HERRAMIENTA DE DESARROLLO (Claude Code) ──────────────────────
+# Permisos locales de sesión — no relevantes para el repo
+.claude/
+
+# ─── ARCHIVOS TEMPORALES DE DIAGNÓSTICO ───────────────────────────
+# Outputs crudos del LLM guardados cuando falla el parse
+/tmp/llm_raw_*.txt
+muestra_3_articulos*.json
+
+# ─── SISTEMA OPERATIVO ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── LOGS ─────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+
+# ─── IDE ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── LO QUE SÍ SE COMMITEA (explícito para evitar confusiones) ────
+# datos/enriquecido/articulos_enriquecidos.json  ← JSON con análisis
+# datos/intermedio/documento_base.json           ← JSON base parseado
+# fuente/*.docx                                  ← documento oficial
+# scripts/                                       ← pipeline completo
+# prompts/                                       ← prompts versionados
+# site/                                          ← código del sitio
