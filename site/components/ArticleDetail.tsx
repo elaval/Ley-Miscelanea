@@ -19,16 +19,18 @@ function SectionCard({
   label,
   icon,
   color,
+  labelColor = 'text-slate-600',
   children,
 }: {
   label: string;
   icon: string;
   color: string;
+  labelColor?: string;
   children: React.ReactNode;
 }) {
   return (
     <div className={`rounded-xl border ${color} p-4`}>
-      <p className="text-xs font-semibold uppercase tracking-wider mb-2 opacity-70">
+      <p className={`text-xs font-semibold uppercase tracking-wider mb-2 ${labelColor}`}>
         {icon} {label}
       </p>
       {children}
@@ -148,6 +150,7 @@ export default function ArticleDetail({ article }: { article: Article }) {
             label="¿Qué hace este artículo?"
             icon="💡"
             color="border-sky-200 bg-sky-50"
+            labelColor="text-sky-800"
           >
             <p className="text-base text-sky-900 leading-relaxed">
               {analysis.plain_explanation}
@@ -188,6 +191,7 @@ export default function ArticleDetail({ article }: { article: Article }) {
               label="Lo que la descripción oficial no menciona"
               icon="🔍"
               color="border-violet-200 bg-violet-50"
+              labelColor="text-violet-800"
             >
               <p className="text-sm text-violet-900 leading-relaxed">
                 {analysis.gaps_in_message}
@@ -228,6 +232,7 @@ export default function ArticleDetail({ article }: { article: Article }) {
               label="Efectos que podrían pasar desapercibidos"
               icon="⚠️"
               color="border-amber-200 bg-amber-50"
+              labelColor="text-amber-800"
             >
               <p className="text-xs text-amber-700 mb-3">
                 Esta sección incluye efectos posibles, no certezas. Cada punto está anclado en el texto pero requiere interpretación.
