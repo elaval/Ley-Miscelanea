@@ -11,6 +11,7 @@ site/node_modules/
 # ─── BUILDS Y CACHÉ ───────────────────────────────────────────────
 site/.next/
 site/data/          # generado en prebuild — Vercel lo crea en build time
+/package-lock.json  # solo existe para el pipeline local de scripts — no debe confundir a Turbopack en Vercel
 dist/
 out/
 build/

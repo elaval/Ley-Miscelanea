@@ -7,18 +7,11 @@ let _cache: Article[] | null = null;
 export function getAllArticles(): Article[] {
   if (_cache) return _cache;
 
-  // En producción (Vercel) o tras prebuild: leer desde site/data/
-  // En desarrollo local: intentar primero la copia local, luego la ruta externa
-  const candidates = [
-    path.join(process.cwd(), 'data', 'articulos_enriquecidos.json'),
-    path.join(process.cwd(), '..', 'datos', 'enriquecido', 'articulos_enriquecidos.json'),
-  ];
-
-  let filePath: string | null = null;
-  for (const p of candidates) {
-    try { readFileSync(p); filePath = p; break; } catch { /* try next */ }
+  // Leer siempre desde site/data/ (copiado en prebuild via scripts/copy-data.mjs)
+  const filePath = path.join(process.cwd(), 'data', 'articulos_enriquecidos.json');
+  try { readFileSync(filePath); } catch {
+    throw new Error('No se encontró articulos_enriquecidos.json en site/data/. Ejecuta: npm run build (o node scripts/copy-data.mjs).');
   }
-  if (!filePath) throw new Error('No se encontró articulos_enriquecidos.json. Ejecuta npm run build o npm run prebuild.');
 
   const raw = readFileSync(filePath, 'utf-8');
   const data: EnrichedData = JSON.parse(raw);
